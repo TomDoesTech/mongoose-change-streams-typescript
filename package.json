@@ -1,0 +1,18 @@
+{
+  "name": "mongoose-watch-pre",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "mongoose": "^5.13.7"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn -- src/app.ts"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.8",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
